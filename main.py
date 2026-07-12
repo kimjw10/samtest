@@ -20,7 +20,7 @@ class Item(BaseModel):
 @app.get("/")
 def read_root():
     """루트 경로 API - 서버가 정상 작동하는지 확인합니다."""
-    return {"message": "FastAPI 서버가 정상적으로 실행 중입니다!"}
+    return {"message": "FastAPI 서버가 정상적으로 실행 중입니다! ssafy"}
 
 @app.get("/items/{item_id}")
 def get_item(item_id: int):
